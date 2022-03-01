@@ -1,4 +1,4 @@
-FROM maven:3-jdk-11-slim AS builder
+FROM maven:3-eclipse-temurin AS builder
 
 COPY pom.xml /app/
 COPY src/main /app/src/main/
